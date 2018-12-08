@@ -10,7 +10,10 @@
 - [ ] Local Storage
 - [ ] Socket io (Chat App Web + Mobile)
 - [ ] E-Commerce App (Web + Mobile)
-- [ ] Reserve App (Web + Mobile)
+- [ ] App for medical reserves (Web + Mobile)
+- [ ] App for logistics management (Web + Mobile)
+- [ ] Simple CRUD api (Web)
+- [ ] Burger App (Web)
 - [ ] React, React and more React
 
 OBS: All back end in node.js.  
