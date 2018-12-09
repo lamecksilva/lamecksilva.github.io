@@ -30,6 +30,7 @@
 - [ ] Blog Web App (React.js/Node.js/MySQL)
 - [ ] Web Design
 - [ ] Burger App (Web)
+- [ ] Simple App for push files do Github (Node.js or Shell)
 - [ ] Simple CRUD api (Web)
 - [ ] Hash with JavaScript(Node.js)
 - [ ] Socket io (Chat App Web + Mobile)
@@ -38,11 +39,11 @@
 - [ ] App for logistics management (Web + Mobile)
 - [ ] E-Commerce App (Web + Mobile)
 - [x] Social Network for Developers (Web)
-- [x] Simple Shopping List (Web)  
+- [x] Simple Shopping List (Web)
 
-#### DevOps  
+#### DevOps
 
-This part is very important, but my focus is on development (Being that I will study the same way)  
+This part is very important, but my focus is on development (Being that I will study the same way)
 
 - [ ] I/O Management
 - [ ] Virtualization
