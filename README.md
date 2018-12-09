@@ -30,6 +30,10 @@
 - [ ] Blog Web App (React.js/Node.js/MySQL)
 - [ ] Web Design
 - [ ] Burger App (Web)
+- [ ] Flux
+- [ ] Redux
+- [ ] Vue.js
+- [ ] Angular
 - [ ] Simple App for push files do Github (Node.js or Shell)
 - [ ] Simple CRUD api (Web)
 - [ ] Hash with JavaScript(Node.js)
