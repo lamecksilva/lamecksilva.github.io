@@ -16,6 +16,7 @@
 - [ ] WebSockets
 - [ ] GraphQL
 - [ ] Test Apps
+- [ ] JavaScript
 - [ ] Caching (Memcached)
 - [ ] Message Brokers (RabbitMQ)
 - [ ] Search Engine (ElasticSearch)
