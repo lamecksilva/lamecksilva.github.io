@@ -20,7 +20,7 @@
 - [ ] Caching (Memcached)
 - [ ] Message Brokers (RabbitMQ)
 - [ ] Search Engine (ElasticSearch)
-- [ ] REST and RESTful API's
+- [x] REST and RESTful API's
 - [ ] Authentication/ Authorization (OAuth, Basic Auth, Token Auth, JWT, OpenID)
 - [ ] Testing Node.js (Mocha, Chai Sinon, Mockery, Ava, Jasmine...etc...)
 - [ ] React.js
