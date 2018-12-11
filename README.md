@@ -2,47 +2,47 @@
 
 #### [OFF] Things to do/learn
 
-- [ ] Docker
+- [ ] ESLint
+- [ ] JavaScript
 - [ ] Node. js
+- [ ] Web Design
+- [ ] React.js
+- [ ] Redux
+- [ ] Simple CRUD api (Web)
+- [ ] Docker
 - [ ] MongoDB
-- [ ] PWA's (Service Workers)
+- [ ] SSH
+- [ ] MySQL
+- [ ] Local Storage
 - [ ] Express.js
 - [ ] Hapi.js
-- [ ] SSH
 - [ ] Cron
 - [ ] Webpack
 - [ ] TypeScript
-- [ ] ESLint
 - [ ] WebSockets
 - [ ] GraphQL
+- [ ] Vue.js
+- [ ] Angular
 - [ ] Test Apps
-- [ ] JavaScript
+- [ ] PWA's (Service Workers)
 - [ ] Caching (Memcached)
 - [ ] Message Brokers (RabbitMQ)
 - [ ] Search Engine (ElasticSearch)
-- [x] REST and RESTful API's
 - [ ] Authentication/ Authorization (OAuth, Basic Auth, Token Auth, JWT, OpenID)
 - [ ] Testing Node.js (Mocha, Chai Sinon, Mockery, Ava, Jasmine...etc...)
-- [ ] React.js
 - [ ] Server Side Rendering (Next.js/After.js)
 - [ ] Best Practices (Node.js/Hapi.js/React.js/...etc...)
-- [ ] Local Storage
-- [ ] MySQL
 - [ ] Blog Web App (React.js/Node.js/MySQL)
-- [ ] Web Design
 - [ ] Burger App (Web)
-- [x] Flux
-- [ ] Redux
-- [ ] Vue.js
-- [ ] Angular
 - [ ] Simple App for push files do Github (Node.js or Shell)
-- [ ] Simple CRUD api (Web)
 - [ ] Hash with JavaScript(Node.js)
 - [ ] Socket io (Chat App Web + Mobile)
+- [ ] E-Commerce App (Web + Mobile)
 - [ ] App for medical reserves (Web + Mobile)
 - [ ] Web App for Send Videos/Photos (Web)
 - [ ] App for logistics management (Web + Mobile)
-- [ ] E-Commerce App (Web + Mobile)
+- [x] REST and RESTful API's
+- [x] Flux
 - [x] Social Network for Developers (Web)
 - [x] Simple Shopping List (Web)
 
