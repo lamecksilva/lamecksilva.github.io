@@ -31,7 +31,7 @@
 - [ ] Blog Web App (React.js/Node.js/MySQL)
 - [ ] Web Design
 - [ ] Burger App (Web)
-- [ ] Flux
+- [x] Flux
 - [ ] Redux
 - [ ] Vue.js
 - [ ] Angular
