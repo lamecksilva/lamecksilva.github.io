@@ -79,3 +79,14 @@ This part is very important, but my focus is on development (Being that I will s
 
 OBS: All back end in node.js.  
 OBS²: This list is asynchronous, i'll complete it whenever i want.
+
+
+#### OFF
+Things to Purchase
+- [ ] UltraWide Monitor
+- [ ] Quality Mouse
+- [ ] Desk
+- [ ] Chair
+- [ ] HeadSet
+- [ ] Air Conditioner
+- [ ] Blue led fans
