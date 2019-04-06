@@ -6,9 +6,9 @@
 - [ ] JavaScript
 - [ ] Node. js
 - [ ] Web Design
-- [ ] React.js
-- [ ] Redux
-- [ ] Simple CRUD api (Web)
+- [x] React.js
+- [x] Redux
+- [x] Simple CRUD api (Web)
 - [ ] Docker
 - [ ] MongoDB
 - [ ] SSH
@@ -35,8 +35,8 @@
 - [ ] Blog Web App (React.js/Node.js/MySQL)
 - [ ] Burger App (Web)
 - [ ] Simple App for push files do Github (Node.js or Shell)
-- [ ] Hash with JavaScript(Node.js)
-- [ ] Socket io (Chat App Web + Mobile)
+- [ ] Hash with JavaScript (Node.js)
+- [x] Socket io (Chat App Web + Mobile)
 - [ ] E-Commerce App (Web + Mobile)
 - [ ] App for medical reserves (Web + Mobile)
 - [ ] Web App for Send Videos/Photos (Web)
@@ -80,13 +80,14 @@ This part is very important, but my focus is on development (Being that I will s
 OBS: All back end in node.js.  
 OBS²: This list is asynchronous, i'll complete it whenever i want.
 
-
 #### OFF
+
 Things to Purchase
+
 - [ ] UltraWide Monitor
-- [ ] Quality Mouse
+- [x] Quality Mouse
 - [ ] Desk
-- [ ] Chair
+- [x] Chair
 - [ ] HeadSet
 - [ ] Air Conditioner
 - [ ] Blue led fans
