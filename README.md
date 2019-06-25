@@ -2,22 +2,22 @@
 
 #### [OFF] Things to do/learn
 
-- [ ] ESLint
-- [ ] JavaScript
-- [ ] Node. js
+- [x] ESLint
+- [x] JavaScript
+- [x] Node. js
 - [ ] Web Design
 - [x] React.js
 - [x] Redux
 - [x] Simple CRUD api (Web)
 - [ ] Docker
-- [ ] MongoDB
+- [x] MongoDB
 - [ ] SSH
 - [ ] MySQL
-- [ ] Local Storage
+- [x] Local Storage
 - [ ] Express.js
 - [ ] Hapi.js
-- [ ] Cron
-- [ ] Webpack
+- [x] Cron
+- [x] Webpack
 - [ ] TypeScript
 - [ ] WebSockets
 - [ ] GraphQL
@@ -39,7 +39,7 @@
 - [x] Socket io (Chat App Web + Mobile)
 - [ ] E-Commerce App (Web + Mobile)
 - [ ] App for medical reserves (Web + Mobile)
-- [ ] Web App for Send Videos/Photos (Web)
+- [x] Web App for Send Videos/Photos (Web)
 - [ ] App for logistics management (Web + Mobile)
 - [x] REST and RESTful API's
 - [x] Flux
@@ -84,10 +84,10 @@ OBS²: This list is asynchronous, i'll complete it whenever i want.
 
 Things to Purchase
 
-- [ ] UltraWide Monitor
+- [x] UltraWide Monitor
 - [x] Quality Mouse
-- [ ] Desk
+- [x] Desk
 - [x] Chair
 - [ ] HeadSet
 - [ ] Air Conditioner
-- [ ] Blue led fans
+- [x] Blue led fans
