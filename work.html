@@ -1,176 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>View My Work</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
-  <title>View My Work</title>
-</head>
-
-<body id="bg-img">
-  <header>
-    <div class="menu-btn">
-      <div class="btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
+  <body id="bg-img">
+    <header>
+      <div class="menu-btn">
+        <div class="btn">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </div>
       </div>
-    </div>
 
-    <div class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+      <div class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link ">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About me
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="work.html" class="nav-link">
+              My Work
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="skills.html" class="nav-link">
+              My Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              How To Reach Me
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link ">
-            Home
+    </header>
+
+    <main id="work">
+      <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
+
+      <h2 class="sm-heading">
+        Check out some of my projects
+      </h2>
+
+      <div class="projects">
+        <div class="item">
+          <a href="https://lameck-devconnector.herokuapp.com">
+            <img
+              src="img/projects/lameckDevconnector.png"
+              alt="lameck_devconnector"
+            />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About me
+          <a href="https://lameck-devconnector.herokuapp.com" class="btn-light">
+            <i class="fas fa-eye"></i> DevConnector
           </a>
-        </li>
-        <li class="nav-item current">
-          <a href="work.html" class="nav-link">
-            My Work
+          <a
+            href="https://github.com/lamecksilva/MERN-DevConnector"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> GitHub
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="skills.html" class="nav-link">
-            My Skills
+        </div>
+
+        <div class="item">
+          <a href="https://lamecksilva.github.io">
+            <img src="img/projects/lameckSite.png" alt="lameck_devconnector" />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
+          <a href="https://lamecksilva.github.io" class="btn-light">
+            <i class="fas fa-eye"></i> This Site
           </a>
-        </li>
-      </ul>
-    </div>
-  </header>
+          <a
+            href="https://github.com/lamecksilva/lamecksilva.github.io"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
 
-  <main id="work">
-    <h1 class="lg-heading">
-      My <span class="text-secondary">Work</span>
-    </h1>
+        <div class="item">
+          <a href="https://lamecksilva.github.io/Mectal_Acucar/index.html">
+            <img
+              src="img/projects/lameckMectalAcucar.png"
+              alt="Mectal_Acucar"
+            />
+          </a>
+          <a
+            href="https://lamecksilva.github.io/Mectal_Acucar/index.html"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Mectal Acucar
+          </a>
+          <a
+            href="https://github.com/lamecksilva/Mectal_Acucar/"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
 
-    <h2 class="sm-heading">
-      Check out some of my projects
-    </h2>
+        <div class="item">
+          <a href="https://mern-shoppinglist.herokuapp.com/">
+            <img
+              src="img/projects/lameckShoppingList.png"
+              alt="Shopping List"
+            />
+          </a>
+          <a href="https://mern-shoppinglist.herokuapp.com/" class="btn-light">
+            <i class="fas fa-eye"></i> Shopping List
+          </a>
+          <a
+            href="https://github.com/lamecksilva/MERN-Shopping_List"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
 
-    <div class="projects">
-      <div class="item">
-        <a href="https://lameck-devconnector.herokuapp.com">
-          <img src="img/projects/lameckDevconnector.png" alt="lameck_devconnector">
-        </a>
-        <a href="https://lameck-devconnector.herokuapp.com" class="btn-light">
-          <i class="fas fa-eye"></i> DevConnector
-        </a>
-        <a href="https://github.com/lamecksilva/MERN-DevConnector" class="btn-dark">
-          <i class="fab fa-github"></i> GitHub
-        </a>
+        <div class="item">
+          <a href="https://lameck-cards-app.herokuapp.com/">
+            <img src="img/projects/lameckCardsApp.png" alt="coming soon" />
+          </a>
+          <a href="https://lameck-cards-app.herokuapp.com/" class="btn-light">
+            <i class="fas fa-eye"></i> Cards App
+          </a>
+          <a href="https://github.com/lamecksilva/cards-app" class="btn-dark">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://github.com/lamecksilva">
+            <img src="img/projects/github2.jpg" alt="coming soon" />
+          </a>
+          <a href="https://github.com/lamecksilva" class="btn-light">
+            <i class="fas fa-eye"></i> Coming Soon
+          </a>
+          <a href="https://github.com/lamecksilva" class="btn-dark">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://github.com/lamecksilva">
+            <img src="img/projects/github2.jpg" alt="coming soon" />
+          </a>
+          <a href="https://github.com/lamecksilva" class="btn-light">
+            <i class="fas fa-eye"></i> Coming Soon
+          </a>
+          <a href="https://github.com/lamecksilva" class="btn-dark">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="https://github.com/lamecksilva">
+            <img src="img/projects/github2.jpg" alt="coming soon" />
+          </a>
+          <a href="https://github.com/lamecksilva" class="btn-light">
+            <i class="fas fa-eye"></i> Coming Soon
+          </a>
+          <a href="https://github.com/lamecksilva" class="btn-dark">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
       </div>
+    </main>
 
+    <footer id="main-footer">
+      Copyright &copy; 2018
+    </footer>
 
-      <div class="item">
-        <a href="https://lamecksilva.github.io">
-          <img src="img/projects/lameckSite.png" alt="lameck_devconnector">
-        </a>
-        <a href="https://lamecksilva.github.io" class="btn-light">
-          <i class="fas fa-eye"></i> This Site
-        </a>
-        <a href="https://github.com/lamecksilva/lamecksilva.github.io" class="btn-dark">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://lamecksilva.github.io/Mectal_Acucar/index.html">
-          <img src="img/projects/lameckMectalAcucar.png" alt="Mectal_Acucar">
-        </a>
-        <a href="https://lamecksilva.github.io/Mectal_Acucar/index.html" class="btn-light">
-          <i class="fas fa-eye"></i> Mectal Acucar
-        </a>
-        <a href="https://github.com/lamecksilva/Mectal_Acucar/" class="btn-dark">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://mern-shoppinglist.herokuapp.com/">
-          <img src="img/projects/lameckShoppingList.png" alt="Shopping List">
-        </a>
-        <a href="https://mern-shoppinglist.herokuapp.com/" class="btn-light">
-          <i class="fas fa-eye"></i> Shopping List
-        </a>
-        <a href="https://github.com/lamecksilva/MERN-Shopping_List" class="btn-dark">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://github.com/lamecksilva">
-          <img src="img/projects/github2.jpg" alt="coming soon">
-        </a>
-        <a href="https://github.com/lamecksilva" class="btn-light">
-          <i class="fas fa-eye"></i> Coming Soon
-        </a>
-        <a href="https://github.com/lamecksilva" class="btn-dark">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://github.com/lamecksilva">
-          <img src="img/projects/github2.jpg" alt="coming soon">
-        </a>
-        <a href="https://github.com/lamecksilva" class="btn-light">
-          <i class="fas fa-eye"></i> Coming Soon
-        </a>
-        <a href="https://github.com/lamecksilva" class="btn-dark">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://github.com/lamecksilva">
-          <img src="img/projects/github2.jpg" alt="coming soon">
-        </a>
-        <a href="https://github.com/lamecksilva" class="btn-light">
-          <i class="fas fa-eye"></i> Coming Soon
-        </a>
-        <a href="https://github.com/lamecksilva" class="btn-dark">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://github.com/lamecksilva">
-          <img src="img/projects/github2.jpg" alt="coming soon">
-        </a>
-        <a href="https://github.com/lamecksilva" class="btn-light">
-          <i class="fas fa-eye"></i> Coming Soon
-        </a>
-        <a href="https://github.com/lamecksilva" class="btn-dark">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-      </div>
-
-    </div>
-
-  </main>
-
-  <footer id="main-footer">
-    Copyright &copy; 2018
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
