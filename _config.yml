@@ -1,0 +1,12 @@
+title: "My studies"
+description: "Resumo dos conteúdos que estou aprendendo, o que já estudei etc."
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
