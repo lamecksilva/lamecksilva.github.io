@@ -1,21 +1,22 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/style.css" />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <aside class="sidebar">
-        {% include sidebar.html %}
-      </aside>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
 
-      <main class="content">
-        {{ content }}
-      </main>
-    </div>
-  </body>
+    <!-- Conteúdo principal -->
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
 </html>
