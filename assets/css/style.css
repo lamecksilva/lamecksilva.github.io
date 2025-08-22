@@ -6,6 +6,9 @@ body {
   background: #f7f9fc;
   color: #333;
   line-height: 1.6;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 h1 {
@@ -13,6 +16,7 @@ h1 {
   margin: 2rem 0 1rem;
   font-size: 2rem;
   color: #222;
+  transition: color 0.3s ease;
 }
 
 /* Container centralizado */
@@ -39,7 +43,8 @@ ul li {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
   transition:
     transform 0.2s ease,
-    box-shadow 0.2s ease;
+    box-shadow 0.2s ease,
+    background 0.3s ease;
 }
 
 /* Links */
@@ -71,5 +76,32 @@ ul li a:hover {
   ul li a {
     padding: 0.8rem 1rem;
     font-size: 0.95rem;
+  }
+}
+
+/* ============================= */
+/* 🌙 Dark Mode automático       */
+/* ============================= */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212;
+    color: #ddd;
+  }
+
+  h1 {
+    color: #fff;
+  }
+
+  ul li {
+    background: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  ul li a {
+    color: #ddd;
+  }
+
+  ul li a:hover {
+    color: #ff9900; /* destaque no dark mode */
   }
 }
